@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+div{
+    background-image: linear-gradient(30deg, #d2ff54, #ff3400, yellow, blue ,green);
+    border-radius: 15px;
+}
+div:hover{
+    background-image: linear-gradient(210deg,#d2ff54, #ff3400, yellow, blue , white , black);
+    scale: 1.05;
+    transition: 2s;
+}
+
+button {
+    margin: 15px; 
+    height: 150px;
+    width: 200px;
+    border: none;
+    color:black;
+}

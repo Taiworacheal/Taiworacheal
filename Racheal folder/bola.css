@@ -1,0 +1,78 @@
+:root{
+    --fgcolor:#9523a3;
+    --bgcolor:#ffff;
+    --primary:#54ef;
+    color:aqua;
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #ffff;
+    color: black;
+    width: 200px;
+}
+.logo{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+.logo img{
+    width: 100px; 
+}
+header{
+    margin: 30px;
+    padding: 20px ;
+    width: 200px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* height:150px; */
+    align-items: center;
+    margin: 15px;
+}
+.hero-image{
+    width: 200px;
+}
+.hero-text{
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+button{
+    background-color: black;
+    color: burlywood;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    border: yellow;
+}
+button:hover{
+    color: black;
+    background-color: var(--fgcolor);
+    border-radius: 20px;
+}
+.benefit{
+    text-align: center;
+}
+.benefit-flex{
+    display:flex;
+    gap: 30px;
+}
+.benefit-card{
+    background-color: #0000;
+    margin: 0 auto;
+}
+.product{
+    color: aquamarine;
+    border: solid 1px#5e15;
+    display: flex;
+    padding: 5px;
+    border-radius: 10px;
+}

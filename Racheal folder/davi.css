@@ -1,0 +1,105 @@
+:root{
+    --fgcolor:#4b2;
+    --bgcolor:#ffff;
+    --primarycolor:#5ef;
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #ffff;
+}
+header{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    
+}
+.logo image{
+    width: 20px;
+    
+    display: flex;
+}
+navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #4b2;
+}
+a{
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+    margin: 30px;
+    padding: 20px;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    border: yellow;
+}
+button:hover{
+    color: white;
+    background-color: #5ef;
+    border-radius: 20px;
+    transition: 10s;
+    transform: rotate(3000deg);
+}
+.card button{
+    background-color: darkorange;
+    border: none;
+    gap: none;
+    align-items: center;
+    padding: 10px;
+    border-radius: 0%;
+}
+.hero{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* height:150px; */
+    align-items: center;
+    margin: 15px;
+    gap: 30px;
+}
+.hero-text{
+    align-items: baseline;
+    text-align: center;
+    padding: 20px;
+}
+.card{
+    text-align: justify;
+    box-sizing: border-box;
+}
+.card-flex{
+    display:flex;
+    gap: 10px;
+    margin: 20px;
+}
+.features{
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+}
+.features-image{
+    display: flex;
+    width: 30px;
+    gap: 20px;
+    padding: 0%;
+}
+.loan{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    background-image: ;
+}
+.loan button{
+background-color: orange;
+border-radius: 0%;
+    
+}
+.banking-service{
+    
+
+}
